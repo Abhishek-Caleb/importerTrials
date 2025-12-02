@@ -10,6 +10,11 @@
  * governing permissions and limitations under the License.
  */
 
+@import '@westpac/style-config';
+@import '@westpac/style-config/themes/wbc';
+@import '@westpac/style-config/themes/stg';
+@import '@westpac/style-config/themes/bom';
+@import '@westpac/style-config/themes/bsa';
 
 
 :root {
