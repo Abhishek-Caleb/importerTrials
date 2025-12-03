@@ -12,7 +12,7 @@ import {
   loadCSS,
 } from './aem.js';
 // scripts/gel-tokens.js
-import { ALL_BRANDS } from '@westpac/style-config/tokens';
+// import { ALL_BRANDS } from '@westpac/style-config/tokens';
 
 import './gel-init.js';
 
