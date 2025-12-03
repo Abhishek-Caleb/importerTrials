@@ -35,3 +35,33 @@
     padding: 40px 32px;
   }
 }
+
+/* blocks/hero/hero.css */
+
+.gel-hero {
+  /* Let GEL handle fonts/colors via classes.
+     This just adds some layout niceties. */
+  max-width: 1120px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Example: hero heading using GEL typography utilities */
+.gel-hero h1,
+.gel-hero .hero-title {
+  /* These class names come from the shared typography CSS you imported */
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* Example: body text */
+.gel-hero p {
+  margin-bottom: 8px;
+}
+
+/* Example responsive tweak (pure CSS on top of GEL) */
+@media (min-width: 768px) {
+  .gel-hero {
+    border-radius: 8px;
+  }
+}

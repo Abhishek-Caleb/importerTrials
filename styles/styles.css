@@ -10,11 +10,33 @@
  * governing permissions and limitations under the License.
  */
 
-@import '@westpac/style-config';
-@import '@westpac/style-config/themes/wbc';
-@import '@westpac/style-config/themes/stg';
-@import '@westpac/style-config/themes/bom';
-@import '@westpac/style-config/themes/bsa';
+
+@import 'tailwindcss';
+/* Tailwind setup */
+@import '@westpac/style-config/tailwind';
+
+/* ===========================
+   1. Westpac GEL shared CSS
+   =========================== */
+
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/shared/animations.css');
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/shared/borders.css');
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/shared/colors.css');
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/shared/form-control.css');
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/shared/layout.css');
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/shared/typography.css');
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/shared/utilities.css');
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/shared/brand-fonts.css');
+
+/* ===========================
+   2. GEL Brand Theme (WBC)
+   =========================== */
+
+/* WBC theme */
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/themes/theme-wbc.css');
+
+/* STG theme */
+@import url('https://app.unpkg.com/@westpac/style-config@0.1.0-canary.1/files/dist/css/themes/theme-stg.css');
 
 
 :root {
