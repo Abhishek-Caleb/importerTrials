@@ -11,6 +11,10 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
+// scripts/gel-tokens.js
+import { ALL_BRANDS } from '@westpac/style-config/tokens';
+
+import './gel-init.js';
 
 /**
  * Moves all the attributes from a given elmenet to another given element.
