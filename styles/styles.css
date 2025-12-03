@@ -10,10 +10,12 @@
  * governing permissions and limitations under the License.
  */
 
-
+/* Tailwind setup 
 @import 'tailwindcss';
-/* Tailwind setup */
+
 @import '@westpac/style-config/tailwind';
+
+*/
 
 /* ===========================
    1. Westpac GEL shared CSS
